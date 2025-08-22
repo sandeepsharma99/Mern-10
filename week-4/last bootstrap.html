@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+     <script 
+     defer
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+
+     </script>
+
+</head>
+<body>
+    <div class="container ">
+        <div class="alert alert-danger alert-dismissible"> Warning <button type="button" class="btn-close" data-bs-dismiss ="alert" aria-label="close"></button></div>
+        <div class="alert alert-info">Warning
+            <button type="button" class="btn-close" data-bs-dismiss ="alert" aria-label="close"></button>
+        </div>
+        <div class="alert alert-success">Warning
+            <button type="button" class="btn-close" data-bs-dismiss ="alert" aria-label="close"></button>
+        </div>
+        <div class="alert alert-danger">WARning
+            <button type="button" class="btn-close" data-bs-dismiss ="alert" aria-label="close"></button>
+        </div>
+        <div class="alert alert-warning">Warning
+            <button type="button" class="btn-close" data-bs-dismiss ="alert" aria-label="close"></button>
+        </div>
+    </div>
+
+    <!-- Form -->
+
+    <div class="container border bg-black" >
+
+        <form action="">
+
+            <h1 class="text-light">Event Registration Form</h1>
+            
+        <div class="input-group m-2 ">
+
+            <label for="" class="form-label text-light">Name</label>
+        <input type="text" class="form-control" >
+        <label for="" class="form-label text-light" >Email</label>
+        <input type="email" value="abc@gmail.com" class="form-control text-light" disabled>
+
+        </div>
+        <label for="" class="form-label text-light">Mobile No.</label>
+        <input type="number" class="form-control">
+        <label for="" class="form-label text-light">password</label>
+        <input type="password" name="" id="" class="form-control">
+        </form>
+        <label for="" class="form-label text-light">Date</label>
+        <input type="date" name="" class="form-control-date">
+        <label for="" class="form-label text-white d-block text-light">range</label>
+        <input type="range" class="form-control-range">
+
+        <label for="exampleColorInput" class="form-label d-block text-light">Color picker</label>
+        <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+
+        <div class="dropdown ">
+  <button class="btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+
+
+    <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+  <label class="form-check-label" for="checkDefault">
+    Default checkbox
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+  <label class="form-check-label" for="checkChecked">
+    Checked checkbox
+  </label>
+</div>
+
+<label for="" class="form-labe text-light">location</label>
+<input type="text" class="form-control-text" placeholder="enter your location">
+
+<label for="" class="form-label text-light"> description</label>
+<input type="text-area" name="" id="" class="from-control-text-area">
+
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked" checked>
+  <label class="form-check-label text-light" for="switchCheckChecked">yes/No</label>
+</div>
+
+<button class="btn btn-success"> submit</button>
+
+
+<div class="container">
+    <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="Animation.html">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="media.html">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+</div>
+
+    <div class="container">
+        <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    </div>
+
+
+    <div class="container">
+
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+
+
+
+</body>
+</html>
