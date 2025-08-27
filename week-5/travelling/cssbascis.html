@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        .hero{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar{
+            position: relative;
+            height: 5em;
+            background-color: #000000;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .items{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            list-style: none;
+        }
+        .items li{
+            color: white;
+            margin-left: 15px;
+        }
+        .logo h1{
+            color: white;
+            font-size: 40px;
+        }
+        .content{
+            text-align: center;
+        }
+        .hero h1{
+            font-size: 95px;
+            color: #FFF;
+            margin-bottom: 50px;
+        }
+        .our-d p{
+            color: #FFF;
+            margin-bottom: 50px; 
+        }
+        .hero a{
+            font-size: 23px;
+            color: white;
+            text-decoration: none;
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 15px 25px;
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+        }
+        .background-clip{
+            position: absolute;
+
+            top: 5em;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            /* background-size: cover; */
+        }
+        .our-D{
+            position: relative;
+            top: 8rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height:10rem;
+            /* background-color: aqua; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .our-D h1{
+            font-size: 50px;
+        }
+        .our-D p{
+            color: #000000;
+        }
+        .card-section{
+            /* background-color: blueviolet; */
+            height: 40rem;
+            display: flex;
+        
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 20%;
+            height: 70%;
+            background-color: aquamarine;
+        }
+        img{
+            margin: 10px;
+        }
+        h2{
+            font: 1000px;
+        }
+        .box a{
+            margin-bottom: 10px;
+            height: 2em;
+            width:9em;
+            border: 1px solid white;
+            border-radius: 40px;
+            padding: 3em;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Mountain Adventure</h1>
+            </div>
+            <ul class="items">
+                <li>Home</li>
+                <li>About</li>
+                <li>Destination</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero">
+        <video width="100%"  muted loop class="background-clip">
+            <source src="https://videos.pexels.com/video-files/32429353/13831664_2560_1440_60fps.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>Welcome to explore the Mountains</h1>
+            <p>Join us for an unforgettable adventure in the mountains.</p>
+            <a href="">Start Exploring</a>
+            <a href="">Go to Destinations</a>
+        </div>
+    </div>
+
+    <!--Our Drstinations-->
+    <div class="our-D">
+        <h1>Destinations</h1>
+        <p>Discover the most breathtaking mountain destinations.</p>
+    </div>
+    <!--Cards SSection-->
+    <div class="card-section">
+
+
+        <div class="box">
+            <img  width="95%"  src="./pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg" alt="">
+            <h2>Destination 1</h2>
+            <p>Experience the beauty of the mountains like never before.</p>
+            <a href=""><b>Book</b></a>
+        </div>
+
+        
+        <div class="box">
+            <img  width="95%"  src="./pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg" alt="">
+            <h2>Destination 2</h2>
+            <p>Experience the beauty of the mountains like never before.</p>
+            <a href=""><b>Book</b></a>
+        </div>
+
+        <div class="box">
+            <img  width="95%"  src="./pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg" alt="">
+            <h2>Destination 3</h2>
+            <p>Experience the beauty of the mountains like never before.</p>
+            <a href=""><b>Book</b></a>
+        </div>
+
+        <div class="box">
+            <img  width="95%"  src="./pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg" alt="">
+            <h2>Destination 4</h2>
+            <p>Experience the beauty of the mountains like never before.</p>
+            <a href=""><b>Book</b></a>
+        </div>
+        
+    </div>
+</body>
+</html>
